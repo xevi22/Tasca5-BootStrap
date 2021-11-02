@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image:url("img/cara.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img:hover{
+    background-color: darkslateblue;
+    padding: 10px;
+    transition: background-color;
+    box-shadow: black;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+
+article{
+    background-color: cornflowerblue;
+    border-color: white;
+    border-width: 6px;
+    border-style: solid;
+}
+p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+.modul{
+    border: 2px solid black;
+    padding:15px;
+}
+
+
+h3{
+    text-align: center;
+}
+
+#barrafixa{
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    position:static;
+}
+
+#contenidor1{
+
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    background-color: aqua;
+}
+#barra2{
+    margin: 10 auto;
+    padding: 5px;
+    width: auto;
+    height: 20px;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify;
+}
+
+.principal{
+    background-image: url("img/aside.jpg");
+    background-size: cover;
+}
+.secun{
+    background-color: darkslateblue;
+    opacity: 0;
+}
+.secun:hover{
+    color: white;
+    opacity: 1;
+}
+.sec{
+    color: aqua;
+}
+.sec:hover{
+    color: black;
+    width:100px;
+    transition:width;
+}
