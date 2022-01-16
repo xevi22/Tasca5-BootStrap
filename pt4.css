@@ -1,37 +1,15 @@
-*{
-    margin:0;
-    padding: 0;
-}
 
-body{
-    background-image:url("img/cara.png");
-    background-size: cover;
-    background-attachment: fixed;
-}
-.img:hover{
-    background-color: darkslateblue;
-    padding: 10px;
-    transition: background-color;
-    box-shadow: black;
-}
+
 .img{
-    width: 300px;
-    height: 300px;
+    height: 300px ;
+    width: auto ;
 }
 
-article{
-    background-color: cornflowerblue;
-    border-color: white;
-    border-width: 6px;
-    border-style: solid;
-}
+
 p{
     display: inline-block;
     vertical-align: top;
 }
-
-
-
 
 .modul{
     border: 2px solid black;
@@ -41,6 +19,9 @@ p{
 
 h3{
     text-align: center;
+}
+.a{
+    color: white;
 }
 
 #barrafixa{

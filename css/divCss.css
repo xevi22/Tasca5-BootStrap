@@ -1,0 +1,59 @@
+body{
+    font-size: 18px;
+}
+
+.un{
+    font-size: 25px;
+    font-family: Georgia;
+}
+.dos{
+    font-size: 1cm;
+    font-family:"Palatino L";
+    font-style: oblique;
+}
+.tres{
+    font-size: 18pt;
+    font-family:Times New Roman;
+    font-weight: bolder;
+}
+.quatre{
+    font-size: 2em;
+    font-family: Arial;
+    text-shadow: 2px 2px #ffdd9d;
+}
+.cinc{
+    font-size: 3rem;
+    font-family: tahoma;
+    text-decoration: underline;
+}
+.sis{
+    font-size: 150%;
+    font-family: font face open-sans;
+    text-overflow: clip;
+}
+.set{
+    font-size:500yh;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.vuit{
+    font-size: 100yw;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+}
+
+.secun{
+    color: darkgrey;
+}
+.icon{
+    color: black;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.icones{
+    background-color: tomato;
+}
